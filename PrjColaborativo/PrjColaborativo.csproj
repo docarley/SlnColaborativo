@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
+    <Content Include="pages\Gui.aspx" />
     <Content Include="pages\GustavoMaziero.html" />
     <Content Include="pages\PedroSantana.html" />
     <Content Include="Web.config" />
@@ -83,6 +84,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Gui.aspx.cs">
+      <DependentUpon>Gui.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Gui.aspx.designer.cs">
+      <DependentUpon>Gui.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
