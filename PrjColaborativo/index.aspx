@@ -8,10 +8,14 @@
     <title></title>
 </head>
 <body>
+    <main>
+    <section id="form">
     <form id="form1" runat="server">
         <div>
             <h1>Página colaborativa</h1>
         </div>
     </form>
+    </section>
+    </main>
 </body>
 </html>
